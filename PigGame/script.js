@@ -33,6 +33,9 @@ function resetGame() {
 
     player0Score = 0;
     player1Score = 0;
+
+    player0El.classList.add('player--active')
+    player1El.classList.remove('player--active')
 }
 
 function updateScore() {
